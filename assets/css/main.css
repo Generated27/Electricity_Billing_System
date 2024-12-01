@@ -1,0 +1,87 @@
+body {
+    background-color: #f2f2f2;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #000000;
+}
+
+h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #0b0b0b;
+    font-weight: 400;
+}
+
+h4 {
+    color: #141414;
+    font-weight: 400;
+    font-size: 20px;
+}
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+.centered {
+    text-align: center;
+}
+a {
+    color: #0e175b;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover, a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+.navbar {
+    background-color: rgba(91, 105, 255, 0.8);
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+}
+.mt {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.form-control {
+    height: 42px;
+    font-size: 18px;
+    width: 280px; /
+}
+i {
+    margin: 8px;
+    color: #0e175b;
+}
+
+#headerwrap {
+    background-image: url('electricity.jpg'); 
+    background-color: #004265; 
+    padding-top: 70px;
+    padding-bottom: 0px;
+    min-height: 650px;
+    background-size: cover; 
+}
